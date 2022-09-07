@@ -1,0 +1,19 @@
+composer:
+  last: Caldara
+  first: Antonio
+title: Magnificat
+genre: canticle
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 clno (C), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2170-D-2,3
+    date: 1721–1729
+    rism: 212009443
+    url: https://digital.slub-dresden.de/id469811285
+    license: public domain
+    principal: true
+imslp:
+parts:
+  clno12: Clarino I, II in C
