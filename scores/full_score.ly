@@ -26,6 +26,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
+            \set Staff.soloText = \markup \remark \medium "clno 1"
             \partCombine \MagnificatClarinoI \MagnificatClarinoII
           >>
         >>
@@ -81,7 +82,7 @@
         \new FiguredBass { \MagnificatBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }
