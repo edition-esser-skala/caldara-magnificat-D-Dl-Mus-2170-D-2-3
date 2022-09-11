@@ -1,26 +1,26 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "cor")
+#(define option-instrument-name "clno")
 \include "score_settings/two-staves.ly"
 
 \book {
   \bookpart {
-    \section "1" "First"
+    \section "Magnificat"
     \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \transposedName "Corno" "C" ""
+            \set GrandStaff.instrumentName = \transposedName "Clarino" "C" ""
             \new Staff {
               \set Staff.instrumentName = "I"
-              \xxxCornoI
+              \MagnificatClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \xxxCornoII
+              \MagnificatClarinoII
             }
           >>
         >>
